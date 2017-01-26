@@ -10,7 +10,6 @@ export const FirebaseConfig = {
 
 export const Initial = {
   sidebar: {
-    website: 'www.rykeller.com',
     github: 'https://github.com/RcKeller/'
   }
 }

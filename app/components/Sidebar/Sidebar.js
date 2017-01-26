@@ -9,9 +9,7 @@ import Divider from 'material-ui/Divider'
 
 const Sidebar = ({github = C.Initial.github}) =>
   <List style={C.Theme.list}>
-    <div>
-      sidebar
-    </div>
+    <div />
     <Divider />
     <a target='_blank' href={github}>
       <ListItem style={C.Theme.link}

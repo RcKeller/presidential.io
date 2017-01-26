@@ -8,7 +8,7 @@ import nl2br from 'react-newline-to-break'
 import {Card, CardTitle, CardText} from 'material-ui/Card'
 
 const Overview = ({title, objective}) => (
-  <Col style={C.Normalize} sm={12} lg={6}>
+  <Col sm={12} lg={6}>
     <Card style={C.Theme.card}>
       <CardTitle title={title} />
       <CardText>{nl2br(objective)}</CardText>
