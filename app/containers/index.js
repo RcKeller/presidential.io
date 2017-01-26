@@ -108,7 +108,9 @@ var App = React.createClass({
               <Spec />
             </Row>
             <Row>
-              <Overview {...this.state.data.overview} />
+              {/*
+                <Overview {...this.state.data.overview} />
+              */}
             </Row>
           </Container>
           <Footer />
