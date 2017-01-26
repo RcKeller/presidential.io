@@ -22,6 +22,8 @@ import Drawer from 'material-ui/Drawer'
 
 import Sidebar from '../components/Sidebar/Sidebar'
 import Overview from '../components/Overview/Overview'
+import Footer from '../components/Footer/Footer'
+
 //    /////
 //    COMPONENT
 //    /////
@@ -95,7 +97,7 @@ var App = React.createClass({
         </Drawer>
 
         <AppBar
-          title='Keller, Ryan'
+          title='The Executive Tracker - Presidential.io'
           onTouchTap={() => this.setState({nav: !this.state.nav})}
           style={C.Theme.appBar}
         />
@@ -105,7 +107,7 @@ var App = React.createClass({
               <Overview {...this.state.data.overview} />
             </Row>
           </Container>
-
+          <Footer />
         </div>
       </div>
     )

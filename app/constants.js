@@ -39,7 +39,6 @@ export const Accent = {
 }
 
 export const elementHeight = 64
-export const footerHeight = 30
 
 export const Normalize = {
   padding: 0,
@@ -84,6 +83,11 @@ export const Theme = {
   },
   container: {
     padding: 16
+  },
+  footer: {
+    position: 'fixed',
+    bottom: 0,
+    width: '100%'
   },
   card: {
     padding: 10,
@@ -132,18 +136,10 @@ export const Theme = {
   }
 }
 
-export const icon = {
+export const githubIcon = {
   style: {
     width: 25,
     height: 25
   },
-  color: {
-    resume: redA400,
-    email: yellowA400,
-    phone: greenA400
-  },
-  download: 'http://image.flaticon.com/icons/svg/60/60721.svg',
-  facebook: 'https://upload.wikimedia.org/wikipedia/commons/c/c2/F_icon.svg',
-  linkedin: 'https://upload.wikimedia.org/wikipedia/commons/e/e9/Linkedin_icon.svg',
-  github: 'https://simpleicons.org/icons/github.svg'
+  source: 'https://firebasestorage.googleapis.com/v0/b/presidential-io.appspot.com/o/github.svg?alt=media&token=d4e4c82b-9f4f-4bb4-b7de-51ac6361eab8'
 }
