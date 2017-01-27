@@ -34,7 +34,7 @@ const common = merge(
     }
   },
   parts.indexTemplate({
-    title: 'Keller, Ryan | Informatics Specialist',
+    title: 'Presidential.IO | The Executive Tracker',
     appMountId: 'app'
   }),
   parts.loadJSX(PATHS.app),

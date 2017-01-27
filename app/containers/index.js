@@ -22,7 +22,7 @@ import Drawer from 'material-ui/Drawer'
 
 import Sidebar from '../components/Sidebar/Sidebar'
 import Spec from '../components/Spec/Spec'
-import Overview from '../components/Overview/Overview'
+// import Overview from '../components/Overview/Overview'
 import Footer from '../components/Footer/Footer'
 
 //    /////

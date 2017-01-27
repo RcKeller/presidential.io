@@ -1,8 +1,8 @@
 {
   "private": true,
-  "name": "Keller-Website",
+  "name": "Presidential-IO",
   "version": "1.0.0",
-  "description": "My primary personal website",
+  "description": "The Executive Tracker",
   "scripts": {
     "stats": "webpack --profile --json > stats.json",
     "start": "webpack-dev-server",
