@@ -21,7 +21,7 @@ import AppBar from 'material-ui/AppBar'
 import Drawer from 'material-ui/Drawer'
 
 import Sidebar from '../components/Sidebar/Sidebar'
-import Spec from '../components/Spec/Spec'
+// import Spec from '../components/Spec/Spec'
 // import Overview from '../components/Overview/Overview'
 import Footer from '../components/Footer/Footer'
 
@@ -104,14 +104,7 @@ var App = React.createClass({
         />
         <div style={bodyStyle}>
           <Container style={C.Theme.container}>
-            <Row>
-              <Spec />
-            </Row>
-            <Row>
-              {/*
-                <Overview {...this.state.data.overview} />
-              */}
-            </Row>
+            {this.props.children}
           </Container>
           <Footer />
         </div>

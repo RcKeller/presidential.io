@@ -5,6 +5,7 @@ import * as C from './constants'
 //    /////
 import React from 'react'
 import { render } from 'react-dom'
+import { IndexRoute, Router, Route, hashHistory } from 'react-router'
 import injectTapEventPlugin from 'react-tap-event-plugin'
 injectTapEventPlugin()// Soft dependancy for Material-UI
 
@@ -21,7 +22,8 @@ const materialUITheme = getMuiTheme(C.Theme)
 //    /////
 //    PAGES
 //    /////
-import App from './containers'
+import App from './containers/'
+import Home from './components/Home/Home'
 
 //    /////
 //    TESTING
@@ -35,6 +37,20 @@ if (process.env.NODE_ENV !== 'production') {
 //    /////
 render((
   <MuiThemeProvider muiTheme={materialUITheme}>
-    <App />
+    <Router history={hashHistory}>
+      <Route path='/' component={App}>
+        <IndexRoute component={Home} />
+      </Route>
+    </Router>
   </MuiThemeProvider>
 ), document.getElementById('app'))
+
+/*
+<Router history={hashHistory}>
+  <Route path="/" component={App}>
+    <IndexRoute component={Home}/>
+    <Route path="submit" component={Submit}/>
+    <Route path="about" component={About}/>
+  </Route>
+</Router>
+ */
