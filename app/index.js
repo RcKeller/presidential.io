@@ -24,6 +24,7 @@ const materialUITheme = getMuiTheme(C.Theme)
 //    /////
 import App from './containers/'
 import Home from './components/Home/Home'
+import ForeignPolicy from './components/Pages/Pages'
 
 //    /////
 //    TESTING
@@ -40,6 +41,7 @@ render((
     <Router history={hashHistory}>
       <Route path='/' component={App}>
         <IndexRoute component={Home} />
+        <Route path="foreign-policy" component={ForeignPolicy}/>
       </Route>
     </Router>
   </MuiThemeProvider>
