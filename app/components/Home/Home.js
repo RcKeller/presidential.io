@@ -4,6 +4,7 @@ import React from 'react'
 import {Row, Col} from 'react-grid-system'
 import {Card, CardTitle, CardText} from 'material-ui/Card'
 import nl2br from 'react-newline-to-break'
+import VerticalTimeline from '../verticalTimeline/verticalTimeline'
 
 //  Temporary component for concept only. Self containing structure.
 const title = 'The tool to keep the executive branch in check'
@@ -22,10 +23,9 @@ const Home = () => (
 
     <Row>
       <Col sm={12}>
-        <Card style={C.Theme.card}>
+          <VerticalTimeline />
 
 
-        </Card>
       </Col>
     </Row>
   </div>
