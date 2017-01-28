@@ -24,7 +24,7 @@ const materialUITheme = getMuiTheme(C.Theme)
 //    /////
 import App from './containers/'
 import Home from './components/Home/Home'
-import {ForeignPolicy, Environment, Education, Economics, SocialWelfare} from './components/Pages/Pages'
+import Pages from './components/Pages/Pages'
 
 //    /////
 //    TESTING
@@ -41,22 +41,12 @@ render((
     <Router history={hashHistory}>
       <Route path='/' component={App}>
         <IndexRoute component={Home} />
-        <Route path='foreign-policy' component={ForeignPolicy} />
-        <Route path='environment' component={Environment} />
-        <Route path='education' component={Education} />
-        <Route path='economics' component={Economics} />
-        <Route path='social-welfare' component={SocialWelfare} />
+        <Route path='foreign-policy' component={Pages} />
+        <Route path='environment' component={Pages} />
+        <Route path='education' component={Pages} />
+        <Route path='economics' component={Pages} />
+        <Route path='social-welfare' component={Pages} />
       </Route>
     </Router>
   </MuiThemeProvider>
 ), document.getElementById('app'))
-
-/*
-<Router history={hashHistory}>
-  <Route path="/" component={App}>
-    <IndexRoute component={Home}/>
-    <Route path="submit" component={Submit}/>
-    <Route path="about" component={About}/>
-  </Route>
-</Router>
- */

@@ -6,25 +6,17 @@ import {CardHeader, CardText} from 'material-ui/Card'
 //    /////
 //    COMPONENT
 //    /////
-
-const Event = ({name = '', title, dates, description = '', bullets = []}) => (
+const Event = ({title, subtitle, link, description, date}) => (
   <li
     className='event'
-    data-date={dates}
+    data-date={date}
   >
     <CardHeader
       title={title}
-      subtitle={name}
+      subtitle={subtitle}
     />
     <CardText style={C.Theme.cardText}>
       {description}
-      {bullets &&
-        <ul style={{paddingLeft: 15}}>
-          {bullets.map((point, i) => (
-            <li key={i}>{point}</li>
-          ))}
-        </ul>
-      }
     </CardText>
   </li>
 )
