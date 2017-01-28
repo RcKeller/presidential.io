@@ -6,7 +6,7 @@ import {Card, CardTitle, CardText} from 'material-ui/Card'
 import nl2br from 'react-newline-to-break'
 
 import Timeline from '../Timeline/Timeline'
-import Response from './Response/Response'
+import PublicResponse from './Response/Response'
 
 const ForeignPolicy = ({data}) => (
   <div>
@@ -14,12 +14,12 @@ const ForeignPolicy = ({data}) => (
       <Col key={i} sm={12}>
         <Card style={C.Theme.card}>
           <CardTitle title={issue.title} subtitle={issue.subtitle} />
-          <CardText>{nl2br(issue.description)}</CardText>
+          {issue.description && <CardText>{nl2br(issue.description)}</CardText>}
           <Col sm={12}>
-            <Timeline {...issue.movement} />
+            <Timeline data={issue.movement} />
           </Col>
           <CardTitle title='Public Response' />
-          <Response data={issue.counter} />
+          <PublicResponse data={issue.counter} />
         </Card>
       </Col>
     ))}

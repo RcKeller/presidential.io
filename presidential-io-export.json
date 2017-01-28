@@ -9,22 +9,58 @@
           "link" : "www.google.com",
           "subtitle" : "Subtitle",
           "title" : "Some protest"
-        },
-        {
+        }, {
           "date" : "1/28/2017",
-          "description" : "descrip",
+          "description" : "Whats up",
           "link" : "www.google.com",
           "subtitle" : "Subtitle",
-          "title" : "Some protest"
+          "title" : "Another protest"
         } ],
         "description" : "blah",
-        "movement" : {
+        "movement" : [{
           "date" : "1/28/2017",
           "description" : "description",
           "link" : "www.google.com",
           "subline" : "subline",
           "title" : "Trump asks Mexico to pay for wall"
-        },
+        }, {
+          "date" : "1/28/2017",
+          "description" : "description",
+          "link" : "www.google.com",
+          "subline" : "subline",
+          "title" : "Trump asks Mexico to pay for wall"
+        }],
+        "subtitle" : "subline here",
+        "title" : "Build a wall at the southern border"
+      }, {
+        "approved" : true,
+        "counter" : [ {
+          "date" : "1/28/2017",
+          "description" : "descrip",
+          "link" : "www.google.com",
+          "subtitle" : "Subtitle",
+          "title" : "Some protest"
+        }, {
+          "date" : "1/28/2017",
+          "description" : "Whats up",
+          "link" : "www.google.com",
+          "subtitle" : "Subtitle",
+          "title" : "Another protest"
+        } ],
+        "description" : "blah",
+        "movement" : [{
+          "date" : "1/28/2017",
+          "description" : "description",
+          "link" : "www.google.com",
+          "subline" : "subline",
+          "title" : "Trump asks Mexico to pay for wall"
+        }, {
+          "date" : "1/28/2017",
+          "description" : "description",
+          "link" : "www.google.com",
+          "subline" : "subline",
+          "title" : "Trump asks Mexico to pay for wall"
+        }],
         "subtitle" : "subline here",
         "title" : "Build a wall at the southern border"
       } ]
