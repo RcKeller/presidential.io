@@ -82,7 +82,8 @@ export const Theme = {
     paddingTop: 0
   },
   container: {
-    padding: 16
+    padding: 16,
+    paddingBottom: elementHeight
   },
   footer: {
     position: 'fixed',
