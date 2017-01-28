@@ -19,7 +19,7 @@ const ForeignPolicy = ({data}) => (
             <Timeline {...issue.movement} />
           </Col>
           <CardTitle title='Public Response' />
-
+          <Response data={issue} />
         </Card>
       </Col>
     ))}
