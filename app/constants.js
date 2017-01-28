@@ -25,7 +25,7 @@ import {
   blueA100, blueA200, blueA400,
   redA400, yellowA400, greenA400,
   greenA700, redA700, yellowA700, blueA700,
-  grey400, grey300, grey50,
+  grey400, grey300,
   blueGrey100,
   white, fullWhite, darkBlack, fullBlack
 } from 'material-ui/styles/colors'

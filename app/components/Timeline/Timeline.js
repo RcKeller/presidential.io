@@ -6,9 +6,23 @@ import {Col} from 'react-grid-system'
 import {CardTitle} from 'material-ui/Card'
 import Divider from 'material-ui/Divider'
 
-import Position from './Position/Position'
+import Position from './Event/Event'
 
-const Timeline = ({data}) => (
+let test = [{
+  title: 'title',
+  name: 'subline',
+  dates: 'Date',
+  bullets: ['Bullet A', 'Bullet B']
+},
+  {
+    title: 'title',
+    name: 'subline',
+    dates: 'Date',
+    bullets: ['Bullet A', 'Bullet B']
+  }
+]
+
+const Timeline = ({data = test}) => (
   <Col style={C.Normalize} sm={12}>
     <ul className='timeline'>
       <CardTitle title='Professional Experience'
