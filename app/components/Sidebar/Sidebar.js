@@ -1,5 +1,6 @@
 import * as C from '../../constants'
 import React from 'react'
+import {Link} from 'react-router'
 
 //    /////
 //    MATERIAL-UI COMPONENTS
@@ -7,20 +8,19 @@ import React from 'react'
 import {List, ListItem} from 'material-ui/List'
 import Divider from 'material-ui/Divider'
 
-import ContentInbox from 'material-ui/svg-icons/content/inbox'
-import ActionGrade from 'material-ui/svg-icons/action/grade'
-import ContentSend from 'material-ui/svg-icons/content/send'
-import ContentDrafts from 'material-ui/svg-icons/content/drafts'
+import Language from 'material-ui/svg-icons/action/language'
 
 const Sidebar = ({github = C.Initial.github}) =>
-  <List style={C.Theme.list}>
-    <ListItem primaryText='Inbox' leftIcon={<ContentInbox />} />
-    <ListItem primaryText='Starred' leftIcon={<ActionGrade />} />
-    <ListItem primaryText='Sent mail' leftIcon={<ContentSend />} />
-    <ListItem primaryText='Drafts' leftIcon={<ContentDrafts />} />
+  <List>
+    <Link to='/' style={{textDecoration: 'none'}}>
+      <ListItem primaryText='Home' leftIcon={<Language />} />
+    </Link>
+    <Link to='/foreign-policy' style={{textDecoration: 'none'}}>
+      <ListItem primaryText='Foreign Policy' leftIcon={<Language />} />
+    </Link>
     <Divider />
     <a target='_blank' href={github}>
-      <ListItem style={C.Theme.link}
+      <ListItem
         leftIcon={<img src={C.githubIcon.source} alt='' style={C.githubIcon.style} />}
         primaryText='Github'
       />
