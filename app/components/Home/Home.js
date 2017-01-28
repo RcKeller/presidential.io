@@ -8,7 +8,7 @@ import VerticalTimeline from '../verticalTimeline/verticalTimeline'
 
 
 //  Temporary component for concept only. Self containing structure.
-const title = 'Welcome to Executive Branch Tracker'
+const title = 'Welcome to Executive Action'
 const text = 'The mission of this site is to provide an unbiased record of administrative action taken by the executive branch and the subsequent responses organized by the American public. We want to inform users about the facts of the Trump administration and empower those who may feel helpless.'
 
 const Home = ({data}) => (
