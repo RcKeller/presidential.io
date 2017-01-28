@@ -23,9 +23,7 @@ const Home = () => (
 
     <Row>
       <Col sm={12}>
-          <VerticalTimeline />
-
-
+        <VerticalTimeline />
       </Col>
     </Row>
   </div>

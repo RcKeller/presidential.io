@@ -38,7 +38,7 @@ if (process.env.NODE_ENV !== 'production') {
 //    /////
 render((
   <MuiThemeProvider muiTheme={materialUITheme}>
-    <Router history={hashHistory}>
+    <Router onUpdate={() => window.scrollTo(0, 0)} history={hashHistory}>
       <Route path='/' component={App}>
         <IndexRoute component={Home} />
         <Route path='foreign-policy' component={Pages} />
