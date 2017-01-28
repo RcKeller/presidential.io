@@ -56,7 +56,7 @@ export const Theme = {
     accent3Color: blueA100,
     textColor: darkBlack,
     alternateTextColor: white,
-    canvasColor: grey50,
+    canvasColor: white,
     borderColor: grey300,
     disabledColor: fade(darkBlack, 0.3),
     pickerHeaderColor: red800,
