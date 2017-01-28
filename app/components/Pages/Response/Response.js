@@ -4,7 +4,7 @@ import React from 'react'
 import {Col} from 'react-grid-system'
 import {Card, CardHeader, CardText} from 'material-ui/Card'
 
-const Response = ({data}) => (
+const Response = ({data = []}) => (
   <div>
     <Col sm={12} md={6}>
       <Card style={C.Theme.card}>
