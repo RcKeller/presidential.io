@@ -9,8 +9,8 @@ import * as C from '../constants'
 //    DEPENDENCIES
 //    /////
 import React from 'react'
-import {Container, Row} from 'react-grid-system'
-
+import {Container} from 'react-grid-system'
+//  Backend
 import firebase from 'firebase'
 import ReactFireMixin from 'reactfire'
 
@@ -21,8 +21,6 @@ import AppBar from 'material-ui/AppBar'
 import Drawer from 'material-ui/Drawer'
 
 import Sidebar from '../components/Sidebar/Sidebar'
-// import Spec from '../components/Spec/Spec'
-// import Overview from '../components/Overview/Overview'
 import Footer from '../components/Footer/Footer'
 
 //    /////
@@ -51,7 +49,7 @@ var App = React.createClass({
       Firebase Data
       */
       data: {
-        overview: {},
+        categories: {},
         sidebar: {}
       }
     }
@@ -104,7 +102,7 @@ var App = React.createClass({
         />
         <div style={bodyStyle}>
           <Container style={C.Theme.container}>
-            {this.props.children}
+            {React.cloneElement(this.props.children, {data: this.state.data.categories})}
           </Container>
           <Footer />
         </div>
