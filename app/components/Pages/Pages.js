@@ -19,7 +19,7 @@ const routeMap = {
 
 const Pages = ({data, route}) => (
   <div>
-    {route &&
+    {routeMap.hasOwnProperty(route.path) &&
       data.categories[routeMap[route.path]].map((issue, i) => (
         <Col key={i} sm={12}>
           <Card style={C.Theme.card}>
@@ -32,11 +32,10 @@ const Pages = ({data, route}) => (
             <PublicResponse data={issue.counter} />
           </Card>
         </Col>
-      ))
-    }
+      ))}
   </div>
-)
-//  WHAT YOU SEE BELOW IS POOR PRACTICE.
-//  Doing this for the sake of time.
+    )
+      //  WHAT YOU SEE BELOW IS POOR PRACTICE.
+      //  Doing this for the sake of time.
 
 export default Pages

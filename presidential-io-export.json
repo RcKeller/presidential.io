@@ -1,0 +1,211 @@
+{
+  "data" : {
+    "categories" : {
+      "economics" : [ {
+        "approved" : true,
+        "counter" : [ {
+          "date" : "1/28/2017",
+          "description" : "descrip",
+          "link" : "www.google.com",
+          "subtitle" : "Subtitle",
+          "title" : "Some protest"
+        }, {
+          "date" : "1/28/2017",
+          "description" : "Whats up",
+          "link" : "www.google.com",
+          "subtitle" : "Subtitle",
+          "title" : "Another protest"
+        } ],
+        "description" : "blah",
+        "movement" : [ {
+          "date" : "1/28/2017",
+          "description" : "Whoa man",
+          "link" : "www.google.com",
+          "subtitle" : "subtitle",
+          "title" : "Trump asks Mexico to pay for wall"
+        }, {
+          "date" : "1/28/2017",
+          "description" : "description",
+          "link" : "www.google.com",
+          "subtitle" : "subtitle",
+          "title" : "Trump asks Mexico to pay for wall"
+        } ],
+        "subtitle" : "subline here",
+        "title" : "Cut state subsidies"
+      } ],
+      "education" : [ {
+        "approved" : true,
+        "counter" : [ {
+          "date" : "1/28/2017",
+          "description" : "descrip",
+          "link" : "www.google.com",
+          "subtitle" : "Subtitle",
+          "title" : "Some protest"
+        }, {
+          "date" : "1/28/2017",
+          "description" : "Whats up",
+          "link" : "www.google.com",
+          "subtitle" : "Subtitle",
+          "title" : "Another protest"
+        } ],
+        "description" : "blah",
+        "movement" : [ {
+          "date" : "1/28/2017",
+          "description" : "Whoa man",
+          "link" : "www.google.com",
+          "subtitle" : "subtitle",
+          "title" : "Trump asks Mexico to pay for wall"
+        }, {
+          "date" : "1/28/2017",
+          "description" : "description",
+          "link" : "www.google.com",
+          "subtitle" : "subtitle",
+          "title" : "Trump asks Mexico to pay for wall"
+        } ],
+        "subtitle" : "subline here",
+        "title" : "Education Thing"
+      } ],
+      "environment" : [ {
+        "approved" : true,
+        "counter" : [ {
+          "date" : "1/28/2017",
+          "description" : "descrip",
+          "link" : "www.google.com",
+          "subtitle" : "Subtitle",
+          "title" : "Some protest"
+        }, {
+          "date" : "1/28/2017",
+          "description" : "Whats up",
+          "link" : "www.google.com",
+          "subtitle" : "Subtitle",
+          "title" : "Another protest"
+        } ],
+        "description" : "blah",
+        "movement" : [ {
+          "date" : "1/28/2017",
+          "description" : "Whoa man",
+          "link" : "www.google.com",
+          "subtitle" : "subtitle",
+          "title" : "Trump asks Mexico to pay for wall"
+        }, {
+          "date" : "1/28/2017",
+          "description" : "description",
+          "link" : "www.google.com",
+          "subtitle" : "subtitle",
+          "title" : "Trump asks Mexico to pay for wall"
+        } ],
+        "subtitle" : "subline here",
+        "title" : "Environment thing"
+      } ],
+      "foreignPolicy" : [ {
+        "approved" : true,
+        "counter" : [ {
+          "date" : "1/28/2017",
+          "description" : "descrip",
+          "link" : "www.google.com",
+          "subtitle" : "Subtitle",
+          "title" : "Some protest"
+        }, {
+          "date" : "1/28/2017",
+          "description" : "Whats up",
+          "link" : "www.google.com",
+          "subtitle" : "Subtitle",
+          "title" : "Another protest"
+        } ],
+        "description" : "blah",
+        "movement" : [ {
+          "date" : "01/25/2017",
+          "link" : "https://www.federalregister.gov/documents/2017/01/30/2017-02095/border-security-and-immigration-enforcement-improvements",
+          "source" : "The White House",
+          "subtitle" : "Executive order to direct Mexico border wall construction.",
+          "title" : "Border Security and Immigration Enforcement Improvements",
+          "type" : "executive-order"
+        }, {
+          "date" : "1/28/2017",
+          "description" : "description",
+          "link" : "www.google.com",
+          "subtitle" : "subtitle",
+          "title" : "Trump asks Mexico to pay for wall"
+        } ],
+        "subtitle" : "Construction of wall on the border between the U.S. and Mexico",
+        "title" : "Build a wall at the southern border"
+      }, {
+        "approved" : true,
+        "counter" : [ {
+          "date" : "1/28/2017",
+          "description" : "descrip",
+          "link" : "www.google.com",
+          "subtitle" : "Subtitle",
+          "title" : "Some protest"
+        }, {
+          "date" : "1/28/2017",
+          "description" : "Whats up",
+          "link" : "www.google.com",
+          "subtitle" : "Subtitle",
+          "title" : "Another protest"
+        } ],
+        "movement" : [ {
+          "date" : "1/28/2017",
+          "description" : "description",
+          "link" : "www.google.com",
+          "subtitle" : "sub",
+          "title" : "Trump asks Mexico to pay for wall"
+        }, {
+          "date" : "1/28/2017",
+          "description" : "description",
+          "link" : "www.google.com",
+          "subtitle" : "s",
+          "title" : "Trump asks Mexico to pay for wall"
+        } ],
+        "subtitle" : "subline here",
+        "title" : "Some other wall"
+      } ],
+      "socialWelfare" : [ {
+        "approved" : true,
+        "counter" : [ {
+          "date" : "1/28/2017",
+          "description" : "descrip",
+          "link" : "www.google.com",
+          "subtitle" : "Subtitle",
+          "title" : "Some protest"
+        }, {
+          "date" : "1/28/2017",
+          "description" : "Whats up",
+          "link" : "www.google.com",
+          "subtitle" : "Subtitle",
+          "title" : "Another protest"
+        } ],
+        "description" : "blah",
+        "movement" : [ {
+          "date" : "1/28/2017",
+          "description" : "Whoa man",
+          "link" : "www.google.com",
+          "subtitle" : "subtitle",
+          "title" : "Trump asks Mexico to pay for wall"
+        }, {
+          "date" : "1/28/2017",
+          "description" : "description",
+          "link" : "www.google.com",
+          "subtitle" : "subtitle",
+          "title" : "Trump asks Mexico to pay for wall"
+        } ],
+        "subtitle" : "subline here",
+        "title" : "Cut Affordable Care"
+      } ]
+    },
+    "headlines" : [ {
+      "description" : "Describe me",
+      "image" : "www.google.com",
+      "link" : "www.google.com",
+      "title" : "Title crazy"
+    }, {
+      "description" : "describe me pls",
+      "image" : "www.google.com",
+      "link" : "www.google.com",
+      "title" : "Title here"
+    } ],
+    "sidebar" : {
+      "github" : "https://github.com/RcKeller/presidential.io"
+    }
+  }
+}
