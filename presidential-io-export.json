@@ -3,13 +3,13 @@
     "categories" : {
       "foreignPolicy" : [ {
         "approved" : true,
-        "countermovemement" : {
+        "counterMovemements" : [{
           "date" : "1/28/2017",
           "description" : "descrip",
           "link" : "www.google.com",
           "subtitle" : "Subtitle",
           "title" : "Some protest"
-        },
+        }],
         "movement" : {
           "date" : "1/28/2017",
           "description" : "description",

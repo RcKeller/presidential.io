@@ -1,32 +1,29 @@
 import * as C from '../../constants'
 import React from 'react'
 
-import {Row, Col} from 'react-grid-system'
-import {Card, CardTitle, CardHeader, CardText} from 'material-ui/Card'
+import {Col} from 'react-grid-system'
+import {Card, CardTitle, CardText} from 'material-ui/Card'
 import nl2br from 'react-newline-to-break'
 
 import Timeline from '../Timeline/Timeline'
+import Response from './Response/Response'
 
-const ForeignPolicy = () => (
-  <Row>
-    <Col sm={12}>
-      <Card style={C.Theme.card}>
-        <CardTitle title='Build the Wall' subtitle='Blah blah just another brick in that wall' />
-        <CardText>{nl2br('Details about the exec branchs stance.')}</CardText>
-        <Col sm={12}>
-          <Timeline />
-        </Col>
-        <CardTitle title='Public Response' />
-        <Col sm={12} md={6}>
-          <Card style={C.Theme.card}>
-            <CardHeader title='Anti-wall stuff' subtitle='Location & Date' />
-            <CardText>Links n stuff</CardText>
-          </Card>
-        </Col>
+const ForeignPolicy = ({data}) => (
+  <div>
+    {data.foreignPolicy.map((issue, i) => (
+      <Col key={i} sm={12}>
+        <Card style={C.Theme.card}>
+          <CardTitle title={issue.title} subtitle={issue.subtitle} />
+          <CardText>{nl2br(issue.description)}</CardText>
+          <Col sm={12}>
+            <Timeline {...issue.movement} />
+          </Col>
+          <CardTitle title='Public Response' />
 
-      </Card>
-    </Col>
-  </Row>
-    )
-
+        </Card>
+      </Col>
+    ))}
+  </div>
+)
+//  <Response {...issue.counterMovements} />
 export default ForeignPolicy

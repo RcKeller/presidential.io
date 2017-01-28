@@ -49,7 +49,9 @@ var App = React.createClass({
       Firebase Data
       */
       data: {
-        categories: {},
+        categories: {
+          foreignPolicy: []
+        },
         sidebar: {}
       }
     }
@@ -81,6 +83,7 @@ var App = React.createClass({
       marginTop: C.elementHeight,
       marginLeft: (this.state.nav && !this.state.mobile ? 250 : 0)
     }
+    console.log(this.state)
     return (
       <div>
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
