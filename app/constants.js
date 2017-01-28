@@ -25,8 +25,9 @@ import {
   blueA100, blueA200, blueA400,
   redA400, yellowA400, greenA400,
   greenA700, redA700, yellowA700, blueA700,
-  blueGrey800, grey400, grey900,
-  fullWhite
+  grey400, grey300, grey50,
+  blueGrey100,
+  white, fullWhite, darkBlack, fullBlack
 } from 'material-ui/styles/colors'
 
 export const Accent = {
@@ -53,14 +54,14 @@ export const Theme = {
     accent1Color: blueA200,
     accent2Color: blueA400,
     accent3Color: blueA100,
-    textColor: fade(fullWhite, 0.7),
-    secondaryTextColor: fade(fullWhite, 0.7),
-    alternateTextColor: fullWhite,
-    canvasColor: grey900,
-    borderColor: fade(fullWhite, 0.3),
-    disabledColor: fade(fullWhite, 0.3),
-    pickerHeaderColor: fade(fullWhite, 0.12),
-    clockCircleColor: fade(fullWhite, 0.12)
+    textColor: darkBlack,
+    alternateTextColor: white,
+    canvasColor: grey50,
+    borderColor: grey300,
+    disabledColor: fade(darkBlack, 0.3),
+    pickerHeaderColor: red800,
+    clockCircleColor: fade(darkBlack, 0.07),
+    shadowColor: fullBlack
   },
   appBar: {
     position: 'fixed',
@@ -73,7 +74,7 @@ export const Theme = {
   drawer: {
     width: 250,
     marginTop: elementHeight,
-    backgroundColor: blueGrey800,
+    backgroundColor: blueGrey100,
     paddingBottom: elementHeight
   },
   list: {

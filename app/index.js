@@ -41,7 +41,7 @@ render((
     <Router history={hashHistory}>
       <Route path='/' component={App}>
         <IndexRoute component={Home} />
-        <Route path="foreign-policy" component={ForeignPolicy}/>
+        <Route path='foreign-policy' component={ForeignPolicy} />
       </Route>
     </Router>
   </MuiThemeProvider>
