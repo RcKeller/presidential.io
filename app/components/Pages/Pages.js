@@ -25,5 +25,12 @@ const ForeignPolicy = ({data}) => (
     ))}
   </div>
 )
-//  <Response {...issue.counterMovements} />
-export default ForeignPolicy
+//  WHAT YOU SEE BELOW IS POOR PRACTICE.
+//  Doing this for the sake of time.
+
+const Environment = () => (<div>Empty for now.</div>)
+const Education = () => (<div>Empty for now.</div>)
+const Economics = () => (<div>Empty for now.</div>)
+const SocialWelfare = () => (<div>Empty for now.</div>)
+
+export {ForeignPolicy, Environment, Education, Economics, SocialWelfare}
