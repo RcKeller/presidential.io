@@ -1,0 +1,28 @@
+{
+  "data" : {
+    "categories" : {
+      "foreignPolicy" : [ {
+        "approved" : true,
+        "countermovemement" : {
+          "date" : "1/28/2017",
+          "description" : "descrip",
+          "link" : "www.google.com",
+          "subtitle" : "Subtitle",
+          "title" : "Some protest"
+        },
+        "movement" : {
+          "date" : "1/28/2017",
+          "description" : "description",
+          "link" : "www.google.com",
+          "subline" : "subline",
+          "title" : "Trump asks Mexico to pay for wall"
+        },
+        "subtitle" : "subline here",
+        "title" : "Build a wall at the southern border"
+      } ]
+    },
+    "sidebar" : {
+      "github" : "https://github.com/RcKeller/presidential.io"
+    }
+  }
+}
