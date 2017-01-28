@@ -20,7 +20,7 @@ const routeMap = {
 const Pages = ({data, route}) => (
   <div>
     {route &&
-      data[routeMap[route.path]].map((issue, i) => (
+      data.categories[routeMap[route.path]].map((issue, i) => (
         <Col key={i} sm={12}>
           <Card style={C.Theme.card}>
             <CardTitle title={issue.title} subtitle={issue.subtitle} />
