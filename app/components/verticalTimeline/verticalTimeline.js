@@ -41,7 +41,7 @@ const VerticalTimeline = ({data}) => (
               <h3 className='title' key={i}>{line.title}</h3>
               <Row>
                 <Col sm={3}>
-                  <img key={i} src={line.image} alt='trump sucks' />
+                  <img key={i} src={line.image} alt='timeline photo' />
                 </Col>
                 <Col sm={9}>
                   <p key={i}>{line.description}</p>
