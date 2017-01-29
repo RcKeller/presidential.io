@@ -106,9 +106,7 @@ var App = React.createClass({
         />
         <div style={bodyStyle}>
           <Container style={C.Theme.container}>
-            {this.state.data &&
-              React.cloneElement(this.props.children, {data: this.state.data})
-            }
+            {React.cloneElement(this.props.children, {data: this.state.data})}
           </Container>
           <Footer />
         </div>
