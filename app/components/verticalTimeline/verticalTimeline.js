@@ -35,7 +35,7 @@ const VerticalTimeline = ({data}) => (
                 { (line.category == "Social Welfare") && <People color="white"/>}
                 
               </div>
-             }
+             
             </div>
             <div className='verticalTimeline-content'>
               <h3 className='title' key={i}>{line.title}</h3>
