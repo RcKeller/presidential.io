@@ -2,7 +2,7 @@ import * as C from '../../constants'
 import React from 'react'
 
 import {Col} from 'react-grid-system'
-import {Card, CardTitle, CardText} from 'material-ui/Card'
+import {Card, CardTitle, CardMedia, CardText} from 'material-ui/Card'
 import nl2br from 'react-newline-to-break'
 
 import Timeline from '../Timeline/Timeline'
@@ -23,7 +23,11 @@ const Pages = ({data, route}) => (
       data.categories[routeMap[route.path]].map((issue, i) => (
         <Col key={i} sm={12}>
           <Card style={C.Theme.card}>
-            <CardTitle title={issue.title} subtitle={issue.subtitle} />
+            <CardMedia style={{maxHeight: 100}} overlay={
+              <CardTitle title={issue.title} subtitle={issue.subtitle} />
+            } >
+              <img style={{maxHeight: 90}} src={C.defaultImage} />
+            </CardMedia>
             {issue.description && <CardText>{nl2br(issue.description)}</CardText>}
             <Col sm={12}>
               <Timeline data={issue.movement} />
