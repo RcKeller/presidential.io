@@ -15,7 +15,7 @@ const Home = ({data}) => (
       <Col sm={12}>
         <Card style={C.Theme.card}>
           <CardMedia overlay={
-            <CardTitle title='The tool to keep the Executive Branch in check' subtitle='Track executive actions and their public response' />
+            <CardTitle title='Welcome to Executive Action' subtitle='Track executive actions and their public response' />
           } >
             <img style={{maxHeight: 400}} src={C.frontImage} />
           </CardMedia>
