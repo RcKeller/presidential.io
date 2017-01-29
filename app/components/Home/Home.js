@@ -14,10 +14,10 @@ const Home = ({data}) => (
     <Row>
       <Col sm={12}>
         <Card style={C.Theme.card}>
-          <CardMedia style={{maxHeight: 100}} overlay={
+          <CardMedia overlay={
             <CardTitle title='The tool to keep the Executive Branch in check' subtitle='Track executive actions and their public response' />
           } >
-            <img style={{maxHeight: 90}} src={C.defaultImage} />
+            <img style={{maxHeight: 400}} src={C.frontImage} />
           </CardMedia>
           <CardText>{text}</CardText>
         </Card>

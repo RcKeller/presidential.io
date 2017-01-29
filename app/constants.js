@@ -145,3 +145,5 @@ export const githubIcon = {
 }
 
 export const defaultImage = 'https://firebasestorage.googleapis.com/v0/b/presidential-io.appspot.com/o/defaultbackground.png?alt=media&token=bbd696fc-6a12-4518-8691-0715e7b9c57b'
+
+export const frontImage = 'https://firebasestorage.googleapis.com/v0/b/presidential-io.appspot.com/o/flag.jpg?alt=media&token=cc4f202c-343d-4a37-baad-97023056bca2'
