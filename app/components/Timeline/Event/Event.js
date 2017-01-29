@@ -14,6 +14,7 @@ const Event = ({title, subtitle, link, description, date}) => (
     <CardHeader
       title={title}
       subtitle={subtitle}
+      style={C.Normalize}
     />
     <CardText style={C.Theme.cardText}>
       {description}

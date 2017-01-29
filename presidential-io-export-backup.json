@@ -312,6 +312,17 @@
         "title" : "Some other wall"
       } ]
     },
+    "headlines" : [ {
+      "description" : "Describe me",
+      "image" : "www.google.com",
+      "link" : "www.google.com",
+      "title" : "Title crazy"
+    }, {
+      "description" : "describe me pls",
+      "image" : "www.google.com",
+      "link" : "www.google.com",
+      "title" : "Title here"
+    } ],
     "sidebar" : {
       "github" : "https://github.com/RcKeller/presidential.io"
     }

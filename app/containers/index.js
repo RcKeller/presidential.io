@@ -99,7 +99,8 @@ var App = React.createClass({
         </Drawer>
 
         <AppBar
-          title={<span>Presidential.IO - <em>The Executive Tracker</em></span>}
+          title='Executive Action'
+          titleStyle={{textAlign: 'center', fontStyle: 'italic', fontSize: 36}}
           onTouchTap={() => this.setState({nav: !this.state.nav})}
           style={C.Theme.appBar}
         />

@@ -2,7 +2,7 @@ import * as C from '../../constants'
 import React from 'react'
 
 import {Col} from 'react-grid-system'
-import {Card, CardTitle, CardText} from 'material-ui/Card'
+import {Card, CardTitle, CardMedia, CardText} from 'material-ui/Card'
 import nl2br from 'react-newline-to-break'
 
 import Timeline from '../Timeline/Timeline'
@@ -19,11 +19,15 @@ const routeMap = {
 
 const Pages = ({data, route}) => (
   <div>
-    {route &&
+    {routeMap.hasOwnProperty(route.path) &&
       data.categories[routeMap[route.path]].map((issue, i) => (
         <Col key={i} sm={12}>
           <Card style={C.Theme.card}>
-            <CardTitle title={issue.title} subtitle={issue.subtitle} />
+            <CardMedia style={{maxHeight: 100}} overlay={
+              <CardTitle title={issue.title} subtitle={issue.subtitle} />
+            } >
+              <img style={{maxHeight: 90}} src={C.defaultImage} />
+            </CardMedia>
             {issue.description && <CardText>{nl2br(issue.description)}</CardText>}
             <Col sm={12}>
               <Timeline data={issue.movement} />
@@ -32,11 +36,10 @@ const Pages = ({data, route}) => (
             <PublicResponse data={issue.counter} />
           </Card>
         </Col>
-      ))
-    }
+      ))}
   </div>
-)
-//  WHAT YOU SEE BELOW IS POOR PRACTICE.
-//  Doing this for the sake of time.
+    )
+      //  WHAT YOU SEE BELOW IS POOR PRACTICE.
+      //  Doing this for the sake of time.
 
 export default Pages

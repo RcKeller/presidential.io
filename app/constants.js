@@ -82,7 +82,7 @@ export const Theme = {
     paddingTop: 0
   },
   container: {
-    padding: 16,
+    padding: 16
   },
   footer: {
     position: 'relative',
@@ -93,7 +93,7 @@ export const Theme = {
     padding: 10,
     margin: 10,
     overflow: 'hidden',
-    minHeight: 350
+    minHeight: 100
   },
   cardHeader: {
     height: 60,
@@ -143,3 +143,7 @@ export const githubIcon = {
   },
   source: 'https://firebasestorage.googleapis.com/v0/b/presidential-io.appspot.com/o/github.svg?alt=media&token=d4e4c82b-9f4f-4bb4-b7de-51ac6361eab8'
 }
+
+export const defaultImage = 'https://firebasestorage.googleapis.com/v0/b/presidential-io.appspot.com/o/defaultbackground.png?alt=media&token=bbd696fc-6a12-4518-8691-0715e7b9c57b'
+
+export const frontImage = 'https://firebasestorage.googleapis.com/v0/b/presidential-io.appspot.com/o/flag.jpg?alt=media&token=cc4f202c-343d-4a37-baad-97023056bca2'
