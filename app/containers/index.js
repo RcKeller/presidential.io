@@ -85,7 +85,7 @@ var App = React.createClass({
     }
     console.log(this.state)
     return (
-      <div>
+      <div style={{overflowX: 'hidden'}}>
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
 
         <Drawer
@@ -97,10 +97,9 @@ var App = React.createClass({
           {this.state.data.sidebar ? <Sidebar {...this.state.data.sidebar} />
           : Loader }
         </Drawer>
-
         <AppBar
           title='Executive Action'
-          titleStyle={{textAlign: 'center', fontStyle: 'italic'}}
+          titleStyle={{fontStyle: 'italic'}}
           onTouchTap={() => this.setState({nav: !this.state.nav})}
           style={C.Theme.appBar}
         />

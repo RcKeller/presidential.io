@@ -66,7 +66,8 @@ export const Theme = {
   appBar: {
     position: 'fixed',
     top: 0,
-    height: elementHeight
+    height: elementHeight,
+    width: '100%'
   },
   contact: {
     height: elementHeight
@@ -85,8 +86,6 @@ export const Theme = {
     paddingTop: 16
   },
   footer: {
-    position: 'relative',
-    bottom: 0,
     width: '100%'
   },
   card: {
