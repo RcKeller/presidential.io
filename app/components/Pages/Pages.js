@@ -26,7 +26,7 @@ const Pages = ({data, route}) => (
             <CardMedia style={{maxHeight: 100}} overlay={
               <CardTitle title={issue.title} subtitle={issue.subtitle} />
             } >
-              <img style={{maxHeight: 90}} src={C.defaultImage} />
+              <img style={{maxHeight: 90}} src={C.headerImage} />
             </CardMedia>
             {issue.description && <CardText>{nl2br(issue.description)}</CardText>}
             <Col sm={12}>
@@ -38,8 +38,5 @@ const Pages = ({data, route}) => (
         </Col>
       ))}
   </div>
-    )
-      //  WHAT YOU SEE BELOW IS POOR PRACTICE.
-      //  Doing this for the sake of time.
-
+)
 export default Pages

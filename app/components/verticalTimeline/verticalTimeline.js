@@ -14,7 +14,7 @@ const VerticalTimeline = ({data}) => (
     <ul className='verticalTimeline'>
       {data.headlines && data.headlines.map((line, i) => (
 
-        <li className='verticalTimeline-item'>
+        <li key={i} className='verticalTimeline-item'>
           <a href={line.link}>
             <div className='verticalTimeline-image blue'>
               <span className='glyphicon glyphicon-th-large' aria-hidden='true' />

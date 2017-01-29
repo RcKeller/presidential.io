@@ -18,7 +18,6 @@ const Timeline = ({data}) => (
       {data.map((position, i) => (
         <Event key={i} {...position} />
       ))}
-      <Divider />
     </ul>
   </Col>
 )
