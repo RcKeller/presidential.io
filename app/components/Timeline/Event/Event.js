@@ -5,7 +5,6 @@ import {CardHeader, CardText} from 'material-ui/Card'
 // import {List, ListItem} from 'material-ui/List';
 import Divider from 'material-ui/Divider'
 
-
 //    /////
 //    COMPONENT
 //    /////

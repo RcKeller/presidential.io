@@ -11,7 +11,7 @@ const Footer = () => (
     <CardHeader style={C.Normalize}
       title='© Keller, Rosemary, Jessica, Benjamin & McKaulay'
       subtitle='UW iSchool - WINFO Hackathon - 2017'
-      avatar='https://firebasestorage.googleapis.com/v0/b/presidential-io.appspot.com/o/ischool-symbol-only-purple-web.png?alt=media&token=bcd4ff2b-991d-4cb8-a18a-8e28b143da40'
+      avatar='https://firebasestorage.googleapis.com/v0/b/presidential-io.appspot.com/o/nontransparenticon.png?alt=media&token=b45573fb-d495-477a-b95e-b83c22f698e0'
     />
   </Paper>
 )
