@@ -2,7 +2,7 @@ import * as C from '../../constants'
 import React from 'react'
 
 import {Row, Col} from 'react-grid-system'
-import {Card, CardTitle, CardText} from 'material-ui/Card'
+import {Card, CardTitle, CardText, CardMedia} from 'material-ui/Card'
 import nl2br from 'react-newline-to-break'
 import VerticalTimeline from '../verticalTimeline/verticalTimeline'
 
@@ -16,8 +16,9 @@ const Home = ({data}) => (
     <Row>
       <Col sm={12}>
         <Card style={C.Theme.card}>
-          <CardTitle title={title} />
-          <CardText>{nl2br(text)}</CardText>
+          <CardMedia>
+            <img src="https://c1.staticflickr.com/2/1655/25128122112_8403538e45_b.jpg" />
+          </CardMedia>
         </Card>
       </Col>
     </Row>
