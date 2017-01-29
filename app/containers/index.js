@@ -100,7 +100,7 @@ var App = React.createClass({
 
         <AppBar
           title='Executive Action'
-          titleStyle={{textAlign: 'center', fontStyle: 'italic', fontSize: 36}}
+          titleStyle={{textAlign: 'center', fontStyle: 'italic'}}
           onTouchTap={() => this.setState({nav: !this.state.nav})}
           style={C.Theme.appBar}
         />

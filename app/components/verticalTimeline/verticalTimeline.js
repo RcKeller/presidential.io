@@ -12,9 +12,9 @@ import School from 'material-ui/svg-icons/social/school'
 import TrendingUp from 'material-ui/svg-icons/action/trending-up'
 import People from 'material-ui/svg-icons/social/people'
 
-//let test = true
+// let test = true
 
-//let x = test ? true : false
+// let x = test ? true : false
 
 const VerticalTimeline = ({data}) => (
   <Col style={C.Normalize} sm={12}>
@@ -24,18 +24,18 @@ const VerticalTimeline = ({data}) => (
 
         <li key={i} className='verticalTimeline-item'>
           <a href={line.link}>
-         
+
             <div className='verticalTimeline-image blue'>
               <div className='verticalTimeline-badge'>
 
-                { (line.category == "Foreign Policy") && <Language color="white"/>}
-                { (line.category == "Environment") && <Landscape color="white"/>}
-                { (line.category == "Education") && <School color="white"/>}
-                { (line.category == "Economics") && <TrendingUp color="white"/>}
-                { (line.category == "Social Welfare") && <People color="white"/>}
-                
+                { (line.category === 'Foreign Policy') && <Language color='white' />}
+                { (line.category === 'Environment') && <Landscape color='white' />}
+                { (line.category === 'Education') && <School color='white' />}
+                { (line.category === 'Economics') && <TrendingUp color='white' />}
+                { (line.category === 'Social Welfare') && <People color='white' />}
+
               </div>
-             
+             }
             </div>
             <div className='verticalTimeline-content'>
               <h3 className='title' key={i}>{line.title}</h3>

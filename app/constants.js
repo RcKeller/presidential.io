@@ -82,7 +82,7 @@ export const Theme = {
     paddingTop: 0
   },
   container: {
-    padding: 16
+    paddingTop: 16
   },
   footer: {
     position: 'relative',
